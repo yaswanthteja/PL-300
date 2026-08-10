@@ -1,6 +1,21 @@
 
+## PL-300 Study Guide
+
+This guide was created to help learners prepare for the Microsoft PL-300 certification exam by focusing on the practical skills, decision-making abilities, and Power BI concepts required to succeed.
+
+The PL-300 exam is not simply a memorization test. Microsoft evaluates whether you can select the best Power BI solution for a given business requirement.
+
+Throughout this guide, the focus is on:
+
+Understanding why a feature should be used
+Recognizing when Microsoft expects a specific solution
+Avoiding common exam distractors
+Applying Power BI concepts in realistic scenarios
+
+
 
 The current PL-300 (Microsoft Power BI Data Analyst) syllabus, updated for skills measured from April 20, 2026, has four main areas:
+
 
 
 | Area                                | Weight |
@@ -18,7 +33,7 @@ Always check the official site for any course updates:  [Syllabus for PL-300](ht
 
 
 
-PL-300 (12-month renewal)
+### PL-300 (12-month renewal)
 
 Prepare the data (25 -30 %)
 
@@ -109,8 +124,8 @@ Create and manage workspaces and assets
 -	Create dashboards
 -	Choose a distribution method
 -	Configure subscriptions and data alerts
--	Promote or certify power bi content
--	Identify when a gate way is required
+-	Promote or certify Power BI content
+-	Identify when a gateway is required
 -	Configure a semantic model scheduled refresh
 
 Secure and govern Powerbi items
@@ -123,11 +138,11 @@ Secure and govern Powerbi items
 
 
 ### Exam Format
-Online/Test center
-Questions :- 40 -60 questions
-Duration 100-120 minutes
-Types: multiple choice, drag& drop, case studies
-Passing Score:700/1000
+- Online/Test center
+- Questions :- 40 -60 questions
+- Duration 100-120 minutes
+- Types: multiple choice, drag& drop, case studies
+- Passing Score:700/1000
 
 
 
