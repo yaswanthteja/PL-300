@@ -874,13 +874,18 @@ Open blank report and-> get data -> more-> Microsoft Fabric->Power Bi semantic m
 
 ## Lineage View
 
-![alt text](image/lineageView1.png)
+![alt text](image/lineageView1.png) 
 
-![alt text](image/lineageView2.png)
+- Click on the lineage view icon in the workspace to see the lineage of datasets, reports, and dashboards. 
+
+
+![alt text](image/lineageview2.png)
+
+- we can see the lineage of the semantic model and the report that is built on top of it. The report is dependent on the semantic model, which in turn is dependent on the underlying data sources. This view helps understand dependencies and data flow.
 
 ![alt text](image/lineageView3.png)
 
-
+ 
 
 
 
