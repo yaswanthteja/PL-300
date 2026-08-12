@@ -796,7 +796,7 @@ In Live connection mode you caonnect an existing semantic model (eg: Sql server 
     - No model layer in Desktop
     - Only report layer in Desktop
     - Cannot modify relationships or measures unless you own the original dataset
-    
+
 
 
 - `Semantic model`: A published dataset in the Power BI Service that contains both the data layer and the model layer (tables, relationships, measures, hierarchies).
@@ -860,7 +860,7 @@ Open blank report and-> get data -> more-> Microsoft Fabric->Power Bi semantic m
 - Table view is disabled in Live connection
 
 
-![alt text](image/LiveConnection.png)
+![alt text](image/Liveconnection.png)
 
 
 - Symbol for live connection in model view 
@@ -874,11 +874,11 @@ Open blank report and-> get data -> more-> Microsoft Fabric->Power Bi semantic m
 
 ## Lineage View
 
-![alt text](image/lineageview1.png)
+![alt text](image/lineageView1.png)
 
-![alt text](image/lineageview2.png)
+![alt text](image/lineageView2.png)
 
-![alt text](image/lineageview3.png)
+![alt text](image/lineageView3.png)
 
 
 
