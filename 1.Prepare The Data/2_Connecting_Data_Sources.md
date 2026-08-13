@@ -503,7 +503,7 @@ Here we have to make very important decision  because if you leave it as imports
 
 
 
-![alt text](image/SQLdataConnectivityMode.png)
+![alt text](image/SqldataconnectivityMode.png)
 
 
 
@@ -514,7 +514,7 @@ Here we have to make very important decision  because if you leave it as imports
 After Clicking on ok button 
 
 
-![alt text](image/SQLusername.png)
+![alt text](image/SQLUsername.png)
 
 
 - If We are working in projects we choose Database , usually we have username and password  which are created by database admins and click on connect
@@ -568,7 +568,7 @@ So first click on the table and select on the table and in properties pane -> ad
 Now powerbi gives you a pop up
 
 
-![alt text](image/storagemodepopup.png)
+![alt text](image/storagemodePopup.png)
 
 And Changes it into import mode, it will do exactly as import it will go to the source and stores a local copy inside powerbi
 
@@ -581,7 +581,7 @@ And Changes it into import mode, it will do exactly as import it will go to the 
 
 
 
-![alt text](image/directquerytableview.png)
+![alt text](image/Directquerytableview.png)
 
 
 
@@ -606,7 +606,7 @@ The old visual holding old data and new visual holding new data . So what’s ha
 
 
 - Old Visual  
-![alt text](image/cacheExample1.png)
+![alt text](image/CacheExample1.png)
 
 
 
@@ -615,7 +615,7 @@ The old visual holding old data and new visual holding new data . So what’s ha
 
 - new Visual 
 
-![alt text](image/cacheExample2.png)
+![alt text](image/CacheExample2.png)
 
 
 
@@ -640,7 +640,7 @@ File->Options andsettings->options-> Data load -> Data Cache Management Options
 
 
 
-![alt text](image/managecache.png)
+![alt text](image/ManageCache.png)
 
 
 
@@ -714,7 +714,7 @@ In  Powerbi Go to model view and select table-> properties pane-> advanced->stor
 - you can transition a table from Dual mode to DirectQuery or Import mode
 
 
-![alt text](image/dualmode.png)
+![alt text](image/Dualmode.png)
 
 
 ## changing dual mode to import or direct query
@@ -753,7 +753,7 @@ A composite model can contain:
 * Dual tables
 
 
-![alt text](image/compositeModel.png)
+![alt text](image/Compositemodel.png)
 
 
 ## Why use composite models?
@@ -838,7 +838,7 @@ This ensures consistency, reduces duplication, and simplifies governance.
 ## Example Live Connection:
 
 
-![alt text](image/powerbiworkspace.png)
+![alt text](image/Powerbiworkspace.png)
 
 
 ### Example : Reuse the shared semantic model to build new reports
@@ -874,16 +874,16 @@ Open blank report and-> get data -> more-> Microsoft Fabric->Power Bi semantic m
 
 ## Lineage View
 
-![alt text](image/lineageView1.png) 
+![alt text](image/LineageView1.png) 
 
 - Click on the lineage view icon in the workspace to see the lineage of datasets, reports, and dashboards. 
 
 
-![alt text](image/lineageview2.png)
+![alt text](image/Lineageview2.png)
 
 - we can see the lineage of the semantic model and the report that is built on top of it. The report is dependent on the semantic model, which in turn is dependent on the underlying data sources. This view helps understand dependencies and data flow.
 
-![alt text](image/lineageView3.png)
+![alt text](image/Lineageview3.png)
 
  
 
