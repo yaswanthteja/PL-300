@@ -576,6 +576,12 @@ So when ever we create or interact with visuals  the visual layer request data f
 -	SO in all of that particular criteria we try to see that a scheduled refresh would be required with in direct query
 
 
+Automatic page refresh is a feature in Power BI that allows visuals on a report page to refresh automatically at a specified interval without user interaction. This is particularly useful for real-time or near real-time data scenarios, where you want the visuals to update continuously to reflect the latest data from the underlying data source.
+
+
+![alt text](image/DirectQueryrefresh.png)
+
+
 
 
 ## Example of Direct Query Using MSSQl server
@@ -737,6 +743,15 @@ File->Options andsettings->options-> Data load -> Data Cache Management Options
 
 
 ![alt text](image/ManageCache.png)
+
+
+
+
+
+
+
+
+
 
 
 
