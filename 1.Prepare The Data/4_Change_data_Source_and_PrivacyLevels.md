@@ -116,7 +116,7 @@ For example , if you are using a SQL Server data source, you can change the cred
 
 
 
-### Manage Privacy setting
+### Manage Privacy settings
 
 - `Private` : Data Sources set to private contain sensitive or confidential information. visibility can be restricted to authorized users.private data sources are completely isolated from other data sources, including other private data sources.
     - Example: Facebook data, a text file containg stock awards, or a workbook containing employee revies information.
@@ -131,5 +131,50 @@ For example , if you are using a SQL Server data source, you can change the cred
 
  - There is a setting in Powerbi where we specify how do we want privacy levels
 
-- Combining data according to your privacy level settings
+- Privacy levels for files are specified in powerBi desktop
+
+
+- `Combining data according to your privacy level settings`
+
+    - Data is combined according to privacy levels setting. merging data across privaccy isolation zones will result in some data buffering
+- `Ignore the privacy Levels and potentially improve performance`
+
+    - Data is combined ignoring privacy level setting.Ignoring the privacy setting can reveal sensiitive or confidential data to an unauthorized user. This setting might improve performance and functionality.
+
+- above two settings will be found on
+open powerbi desktop select file tab and click on options and settings and click on options now we see current file we see privacy 
+Here we can set the privacy levels
+
+### How can we edit privacy levels
+
+
+Open powerQuery In the Data source settings we have edit permisions click on that now we have privacy level dropdown.
+![alt image](image/SQLCredentials_Edit_Permissions.png)
+
+
+- In that we have 4 options
+
+    - None
+    - Public
+    - Organizational
+    - Private
+
+
+### Clear permisions
+
+Open powerQuery In the Data source settings we have clear permissions option where we can clear the existing permissions click on that option It will gi you a popup (are sure you wnat to clear permissions for this entry? If you clear it you have no way of getting it back) and press Delete
+
+
+## PBIDS (Powerbi Data source Files)
+
+- PBIDS Files are Powerbi desktop files that have a specific structure and a .pdids extenstion to identify them as a powerBi data source files.
+
+- PBIDS streamline the Get data experience for new or beginner export creators in the organization
+
+- When an author opeb a pbids file,powerbi desktop prompts the user for credentias to authenticate and connect to the data source thta the file specifies 
+
+- Currently pbids files only support a single data source in one file.specifyng more thta one dtaa source results in an error.
+
+- where we can find this option on powerbi  desktop first we open powerqueryeditor in that data sources
+settings click on that so that we can find the export pbids option click on it to see a pop up for saving the file  choose a name and save the file in pbids format. 
 
